@@ -1,13 +1,32 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+
+import Hero from '../components/hero'
+import About from '../components/about'
+import Contact from '../components/contact'
+import Footer from '../components/footer'
+import Portfolio from '../components/portfolio'
+import Header from '../components/header'
+import Experience from '../components/experience'
+
 
 const Home: NextPage = () => {
+  
+
   return (
-    <h1 className="text-3xl font-bold underline text-blue-500">
-      Hello world!
-    </h1>
+    <div className="bg-white">
+      <div className="relative overflow-hidden">
+        <Header />
+        <main>
+          <Hero />
+          <About />
+          <Experience />
+          <Portfolio />
+          <Contact />
+        </main>
+
+        <Footer />
+      </div>
+    </div>
   )
 }
 
