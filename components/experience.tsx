@@ -47,7 +47,7 @@ function Experience() {
   let [tabOrientation, setTabOrientation] = useState('horizontal');
 
   return (
-    <div className="py-8 bg-gradient-to-r from-teal-500 to-cyan-600 lg:z-10 lg:relative">
+    <div className="py-12 bg-gradient-to-r from-teal-500 to-cyan-600 lg:z-10 lg:relative">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <Tab.Group
         as="div"

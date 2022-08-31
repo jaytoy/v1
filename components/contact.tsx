@@ -15,10 +15,10 @@ function Contact() {
           <div className="inline-flex rounded-md shadow">
             <a
               href="#"
-              className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-cyan-400"
+              className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md bg-gradient-to-r from-teal-500 to-cyan-600 text-white hover:from-teal-600 hover:to-cyan-700"
             >
               Send me an Email
-              <ArrowTopRightOnSquareIcon className="-mr-1 ml-3 h-5 w-5 text-gray-500" aria-hidden="true" />
+              <ArrowTopRightOnSquareIcon className="-mr-1 ml-3 h-5 w-5 text-white" aria-hidden="true" />
             </a>
           </div>
         </div>
