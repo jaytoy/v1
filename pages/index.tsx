@@ -8,7 +8,6 @@ import Portfolio from '../components/portfolio'
 import Header from '../components/header'
 import Experience from '../components/experience'
 
-
 const Home: NextPage = () => {
   
 
@@ -16,6 +15,7 @@ const Home: NextPage = () => {
     <div className="bg-white">
       <div className="relative overflow-hidden">
         <Header />
+
         <main>
           <Hero />
           <About />
