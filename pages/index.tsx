@@ -9,8 +9,6 @@ import Header from '../components/header'
 import Experience from '../components/experience'
 
 const Home: NextPage = () => {
-  
-
   return (
     <div className="bg-white">
       <div className="relative overflow-hidden">
