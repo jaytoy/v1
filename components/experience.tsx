@@ -31,27 +31,27 @@ function Experience() {
           <h2 className="mt-2 text-3xl font-bold text-slate-50 tracking-tight sm:text-4xl sm:tracking-tight">
             Work Experience
           </h2>
-          <p className="mt-6 text-lg tracking-tight text-blue-50">
+          <p className="mt-3 text-lg tracking-tight text-blue-50">
             Companies I&apos;ve worked with
           </p>
         </div>
         <Tab.Group
           as="div"
-          className="mt-8 grid grid-cols-1 items-center gap-y-2 pt-10 sm:gap-y-6 md:mt-10"
+          className="mt-4 md:mt-5 grid grid-cols-1 items-center gap-y-2 pt-10 sm:gap-y-6"
           vertical={tabOrientation === 'vertical'}
         >
           {({ selectedIndex }) => (
             <>
-              <div className="border-b border-gray-200 -mx-4 flex overflow-x-auto pb-0 sm:mx-0 sm:overflow-visible">
+              <div className="border-b border-cyan-200 -mx-4 flex overflow-x-auto pb-0 sm:mx-0 sm:overflow-visible">
                 <Tab.List className="relative z-10 flex gap-x-4 whitespace-nowrap px-4 sm:mx-auto sm:px-0">
                   {experiences.map((exp, expIndex) => (
                     <div
                       key={exp.id}
                       className={clsx(
-                        'group relative py-1 px-4 border-b-2 text-white',
+                        'group relative py-1 px-4 border-b-2',
                         selectedIndex === expIndex
-                          ? 'border-indigo-500 text-indigo-600'
-                          : 'hover:bg-white/20 lg:hover:bg-white/5 border-transparent'
+                          ? 'border-white text-white'
+                          : 'text-cyan-200 hover:bg-white/20 lg:hover:bg-white/5 border-transparent'
                       )}
                     >
                       <h3>
