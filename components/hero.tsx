@@ -1,3 +1,4 @@
+import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/solid'
 import React from 'react'
 
 function Hero() {
@@ -18,18 +19,20 @@ function Hero() {
         </span>{' '}
         <span className="mt-3 block bg-clip-text text-transparent bg-gradient-to-r from-teal-200 to-cyan-500">Full Stack Developer</span>
       </h1>
-      <p className="mx-4 sm:mx-auto mt-8 max-w-4xl text-xl tracking-tight text-slate-100">
-        I&apos;m a software developer who passionates in building amazing web applications.<br/> 
-        Want to build the future together?<br/> 
-        Simply send me an email or connect me on LinkedIn. 
+      <p className="mx-4 sm:mx-auto mt-8 max-w-4xl text-xl sm:text-2xl tracking-tight text-slate-100">
+        I&apos;m a business-minded software developer who passionates in building amazing web applications.<br/> 
+      </p>
+      <p className="mx-4 sm:mx-auto mt-8 max-w-4xl text-xl sm:text-2xl tracking-tight text-slate-100">
+        Send me an email or connect me on LinkedIn to get in touch. 
       </p>
       <div className="mx-4 mt-20 flex justify-center gap-x-6">
         <div className="inline-flex rounded-md shadow">
           <a
-            href="#"
+            href="mailto:jay_toyjianying@hotmail.com"
             className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md bg-gradient-to-r from-teal-500 to-cyan-600 text-white hover:from-teal-600 hover:to-cyan-700"
           >
             Send me Email
+            <ArrowTopRightOnSquareIcon className="-mr-1 ml-3 h-5 w-5 text-white" aria-hidden="true" />
           </a>
         </div>
 
