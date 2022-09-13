@@ -9,14 +9,21 @@ const experiences = [
     companyName: 'QZCLUB',
     jobTitle: "Forntend Developer",
     time: "February 2022 to present",
-    jobDescription: ["Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet.", "Lorem ipsum dolor sit amet."],
+    jobDescription: [
+      "Designed and built software's UI in React", 
+      "Tested and refined software based on user feedback"
+    ],
   },
   {
     id: 2,
     companyName: 'Orient Master GmbH',
     jobTitle: "Project Management - Working Student",
     time: "April 2021 to August 2022",
-    jobDescription: ["Lorem ipsum dolor de sit amet.", "Lorem ipsum dolor de sit amet.", "Lorem ipsum dolor de sit amet."],
+    jobDescription: [
+      "Analysed project scope with competitive analysis and feature requests", 
+      "Collaborated with the e-commerce team and ERP team to ensure the requested features are delivered.", 
+      "Launched the new e-commerce system which results in a 10x increase in orders"
+    ],
   },
 ]
 
