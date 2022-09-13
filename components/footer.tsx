@@ -50,7 +50,9 @@ function Footer() {
           ))}
         </div>
         <div className="mt-8 md:mt-0 md:order-1">
-          <p className="text-center text-base text-gray-400">&copy; {new Date().getFullYear()} Built by Jay Toy</p>
+          <p className="text-center text-base text-gray-400"> 
+            <a href="https://github.com/jaytoy/v1">Built by Jay Toy &copy; {new Date().getFullYear()}</a>
+          </p>
         </div>
       </div>
     </footer>
