@@ -39,7 +39,7 @@ function Experience() {
             Work Experience
           </h2>
           <p className="mt-3 text-lg tracking-tight text-blue-50">
-            Companies I&apos;ve worked with
+            Companies I&apos;ve worked with.
           </p>
         </div>
         <Tab.Group

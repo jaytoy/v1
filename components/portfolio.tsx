@@ -5,27 +5,27 @@ import React from 'react'
 const projects = [
   {
     id: 1,
-    title: 'Football Club Management System',
+    title: 'QZCLUB - Football Club Platform',
     href: '/qzclub',
     imageUrl: '/qzclub/qiuzhi.png',
     preview:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
+      'A platform offering team management and training courses for football club.',
   },
   {
     id: 2,
-    title: 'Omnichannel Commerce API',
+    title: 'Omnisys - Omnichannel Commerce',
     href: '/omnisys',
-    imageUrl: '/qzclub/qiuzhi.png',
+    imageUrl: '/omni.png',
     preview:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+      'An API written in Go(Programming Language) to power omnichannel commerce.',
   },
   {
     id: 3,
-    title: 'Musician Portfolio',
-    href: '/music',
-    imageUrl: '/qzclub/qiuzhi.png',
+    title: 'Nextjs Storefront - Headless Commerce',
+    href: '/storefront',
+    imageUrl: '/storefront.png',
     preview:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+      'A frontend for Headless Commerce built with Next.js. Work in progress.',
   },
 ]
 
@@ -38,8 +38,7 @@ function Portfolio() {
             Things I&apos;ve been working on
           </h2>
           <p className="mt-5 mx-auto max-w-prose text-xl text-gray-500">
-            Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper
-            malesuada. Eleifend condimentum id viverra nulla.
+            Have a look at the projects that I&apos;ve been working on. 
           </p>
         </div>
         <div className="mt-12 mx-auto max-w-md px-4 grid gap-8 sm:max-w-lg sm:px-6 lg:px-8 lg:grid-cols-3 lg:max-w-7xl">

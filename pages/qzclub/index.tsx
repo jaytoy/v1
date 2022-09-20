@@ -9,6 +9,18 @@ function Index() {
         <Header />
 
         <main>
+          <div>
+            <h2>QZCLUB</h2>
+            <p>QZCLUB a sidehustle project that a. It is a React Application built for football club management as well as training courses.</p>
+          </div>
+
+          <div>
+            <div>Stack</div>
+            <ul>
+              <li>React</li>
+              <li></li>
+            </ul>
+          </div>
           
         </main>
 
