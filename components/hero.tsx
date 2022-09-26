@@ -17,7 +17,7 @@ function Hero() {
           </svg> */}
           <span className="text-white">Jay Toy</span>
         </span>{' '}
-        <span className="mt-3 block bg-clip-text text-transparent bg-gradient-to-r from-teal-200 to-cyan-500">Full Stack Developer</span>
+        <span className="mt-3 block bg-clip-text text-transparent bg-gradient-to-r from-teal-200 to-cyan-500">Software Developer</span>
       </h1>
       <p className="mx-4 sm:mx-auto mt-8 max-w-4xl text-xl sm:text-2xl tracking-tight text-slate-100">
         I&apos;m a business-minded software developer who passionates in building amazing web applications.<br/> 
