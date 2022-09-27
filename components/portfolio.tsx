@@ -6,7 +6,7 @@ const projects = [
   {
     id: 1,
     title: 'QZCLUB - Football Club Platform',
-    href: '/qzclub',
+    href: '#',
     imageUrl: '/qzclub/qiuzhi.png',
     preview:
       'A platform offering team management and training courses for football club.',
@@ -14,7 +14,7 @@ const projects = [
   {
     id: 2,
     title: 'Omnisys - Omnichannel Commerce',
-    href: '/omnisys',
+    href: '#',
     imageUrl: '/omni.png',
     preview:
       'An API written in Go(Programming Language) to power omnichannel commerce.',
@@ -22,7 +22,7 @@ const projects = [
   {
     id: 3,
     title: 'Nextjs Storefront - Headless Commerce',
-    href: '/storefront',
+    href: '#',
     imageUrl: '/storefront.png',
     preview:
       'A frontend for Headless Commerce built with Next.js. Work in progress.',
